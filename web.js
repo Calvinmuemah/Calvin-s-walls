@@ -2,7 +2,7 @@ const images=document.querySelector(".images");
 
 // to do:put your access key from unsplash here
 const accesskey="y30KZ74eKSZ12cNv_NB09pFLmffpTFCWOMDbSzrhwGY";
-const page=1;
+const page=2;
 const keyword="Volkswagen";
 async function getimages(){
     const res =await fetch(
