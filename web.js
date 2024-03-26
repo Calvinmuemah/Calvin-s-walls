@@ -3,7 +3,7 @@ const images=document.querySelector(".images");
 // to do:put your access key from unsplash here
 const accesskey="y30KZ74eKSZ12cNv_NB09pFLmffpTFCWOMDbSzrhwGY";
 const page=2;
-const keyword="cars";
+const keyword="birds";
 async function getimages(){
     const res =await fetch(
     ` https://api.unsplash.com/search/photos?page=${page}&query=
