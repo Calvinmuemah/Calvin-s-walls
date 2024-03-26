@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    font-family: Griffy-Regular;
+    background: #212121;
+    color: aliceblue;
+}
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-button{
+    background: #000;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    height: 10px;
+    background: rgb(red, green, blue);
+}
+::-webkit-scrollbar-track{
+    background: #aaa;
+}
+header{
+    background: linear-gradient(blueviolet, rgb(85,114,209));
+    top: 0;
+    position: fixed;
+    z-index: 888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 2px 13px #111111;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+form i{
+    text-align: center;
+    color: rgb(246, 249, 252);
+    font-size: 18px;
+    transition: all 0.1s ease-in-out;
+}
+.fa-microphone{
+    z-index: 888;
+    color: rgb(red, green, blue);
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.fa-microphone:hover{
+    transform: scale(1.5);
+}
+.fa-heart{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(red, green, blue);
+    transition: all 0.1s ease-in-out;
+}
+.fa-heart:hover{
+    transform: scale(1.5);
+}
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: rgb(252, 253, 253);
+    color: #fffefe;
+    font-size: 18px;
+    padding: 0 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+form #search{
+    width: 60px;
+    height: 60px;
+    /* padding: 40px 40px; */
+    text-transform: uppercase;
+    font-weight: 600;
+    /* height: 100%; */
+    background: rgb(red, green, blue);
+    color: #46246e;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*#micicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: rgb(248, 250, 248);
+    border: 0;
+    outline: 0;
+}*/
+::placeholder{
+    color: #333;
+    font-size: 16px;
+}
+.top{
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+header i{
+    font-size: 40px;
+    color:rgb(250, 251, 252);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Griffy-Regular;
+}
+i{
+    font-size: 30px;
+}
+/* add font manually */
+@font-face {
+    font-family: Griffy-Regular;
+    src: url("./assets/Griffy/Griffy-Regular.ttf");
+}
+form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    height: 60px;
+    background: rgb(252, 253, 253);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 1px 2px 13px black;
+}
+#searchIcon{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: blue;
+    right: 0%;
+    top: 0;
+    height: 100%;
+    width: 7%;
+    border-radius: 50%;
+
+}
+#i{
+    color: black;
+}
