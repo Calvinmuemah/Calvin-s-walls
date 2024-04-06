@@ -44,7 +44,7 @@ h1{
     display: flex;
     /* position: relative; */
     /* height: 10%; */
-    width: 40%;
+    width: 50%;
     background-color:white;
     border-radius: 60px;
     outline: none;
@@ -76,7 +76,6 @@ input{
     border:none;
     outline:none;
     background:white;
-    color:black;
     font-size: 18px;
     padding: 0px 30px; 
     border-bottom-left-radius: 60px;
