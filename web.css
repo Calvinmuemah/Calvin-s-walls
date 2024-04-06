@@ -84,12 +84,12 @@ input{
     border-top-right-radius: 60px;
 }
 /* mobile version */
-@media  only screen and (min-width: 600px){
+/*@media  only screen and (min-width: 600px){
     body{
         width: 99%;
     }
     button{
-   /* border: none;  */
+    border: none;  
         width: 20%;
     }
     #container{
@@ -116,5 +116,5 @@ input{
     padding-right: 5px;
     }
 }
-}
+*/
 
