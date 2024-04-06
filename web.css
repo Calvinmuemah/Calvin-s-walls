@@ -89,7 +89,7 @@ input{
         width: 99%;
     }
     button{
-        /* border: none; */
+   /* border: none;  */
         width: 20%;
     }
     #container{
@@ -114,6 +114,7 @@ input{
     row-gap: 20px;
     padding-left: 5px;
     padding-right: 5px;
+    }
 }
 }
 
