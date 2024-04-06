@@ -84,4 +84,37 @@ input{
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
 }
+/* mobile version */
+@media  only screen and (min-width: 600px){
+    body{
+        width: 99%;
+    }
+    button{
+        /* border: none; */
+        width: 20%;
+    }
+    #container{
+        width: 10%;
+    }
+    header{
+        display:flex;
+       }
+    h1{
+        position: center;
+    }
+    input{
+        display: flex;
+        font-size: smaller;
+    }
+    img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5;
+    object-fit: cover;
+    margin: 10px;
+    row-gap: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+}
 
